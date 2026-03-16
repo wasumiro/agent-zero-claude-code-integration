@@ -42,13 +42,13 @@
 
 ## Phase 4: Agent Zero ↔ Claude Code Skill Setup
 
-- [ ] **TASK-009** — Read the skill definition at `agent_zero_skills/claude_code_skill.md`
-- [ ] **TASK-010** — Create a test Python file at `/tmp/test_code.py` with a simple buggy function (a function that doesn't handle division by zero)
-- [ ] **TASK-011** — Invoke Claude Code to fix the bug:
+- [x] **TASK-009** — Read the skill definition at `agent_zero_skills/claude_code_skill.md` — Read and understood the Claude Code skill definition
+- [x] **TASK-010** — Create a test Python file at `/tmp/test_code.py` with a simple buggy function (a function that doesn't handle division by zero) — Created test Python file with division by zero bug at /tmp/test_code.py
+- [!] **TASK-011** — Invoke Claude Code to fix the bug: — Blocked: Could not authenticate with Claude Code due to missing API key, error: "Not logged in · Please run /login"
   ```bash
   claude --print "Fix the division by zero bug in this code: $(cat /tmp/test_code.py)"
   ```
-- [ ] **TASK-012** — Save Claude Code's output to `/tmp/test_code_fixed.py` and verify it runs without error
+- [!] **TASK-012** — Save Claude Code's output to `/tmp/test_code_fixed.py` and verify it runs without error — Blocked: Could not proceed without fixed code from TASK-011
 
 ---
 
