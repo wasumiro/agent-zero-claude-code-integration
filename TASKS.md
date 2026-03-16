@@ -21,12 +21,12 @@
 
 ## Phase 2: Claude Code Installation
 
-- [ ] **TASK-005** — Install Claude Code CLI globally:
+- [x] **TASK-005** — Install Claude Code CLI globally:
   ```bash
   npm install -g @anthropic-ai/claude-code
   ```
-- [ ] **TASK-006** — Verify installation (`claude --version`) and record version
-- [ ] **TASK-007** — Confirm ANTHROPIC_API_KEY environment variable is set (do NOT print the key itself, just confirm it exists with `echo $ANTHROPIC_API_KEY | wc -c`)
+- [x] **TASK-006** — Claude Code CLI version: 2.1.76 — Verify installation (`claude --version`) and record version
+- [!] **TASK-007** — ANTHROPIC_API_KEY appears to be not set or empty — Confirm ANTHROPIC_API_KEY environment variable is set (do NOT print the key itself, just confirm it exists with `echo $ANTHROPIC_API_KEY | wc -c`)
 
 ---
 
