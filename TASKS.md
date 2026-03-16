@@ -8,14 +8,14 @@
 
 ## Phase 1: Environment Verification
 
-- [ ] **TASK-001** — Confirm you are running inside the Agent Zero Docker container (run `uname -a` and `whoami`, report results as a comment in this file)
-- [ ] **TASK-002** — Check if Node.js is installed (`node --version`). If not, proceed to TASK-003. If yes, skip to TASK-004.
+- [x] **TASK-001** — Confirm you are running inside the Agent Zero Docker container (run `uname -a` and `whoami`, report results as a comment in this file)
+- [x] **TASK-002** — Node.js is installed: v22.22.0 — Check if Node.js is installed (`node --version`). If not, proceed to TASK-003. If yes, skip to TASK-004.
 - [ ] **TASK-003** — Install Node.js 20.x LTS using the NodeSource installer:
   ```bash
   curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
   apt-get install -y nodejs
   ```
-- [ ] **TASK-004** — Verify npm is available (`npm --version`) and record version
+- [x] **TASK-004** — npm version: 9.2.0 — Verify npm is available (`npm --version`) and record version
 
 ---
 
