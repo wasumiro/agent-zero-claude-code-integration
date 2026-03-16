@@ -32,7 +32,7 @@
 
 ## Phase 3: Authentication Test
 
-- [ ] **TASK-008** — Run a minimal non-interactive test:
+- [!] **TASK-008** — Error: "Not logged in · Please run /login" - Authentication test failed due to missing API key — Run a minimal non-interactive test:
   ```bash
   claude --print "Reply with only the words: INTEGRATION TEST SUCCESSFUL"
   ```
