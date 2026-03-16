@@ -1,1 +1,3 @@
 - [x] **TASK-015** — Update this TASKS.md file: add a comment line below this task with the timestamp and container hostname
+- [x] **TASK-007** — Successfully set ANTHROPIC_API_KEY from provided secret
+- [x] **TASK-008** — Authentication test SUCCESSFUL: received "INTEGRATION TEST SUCCESSFUL" response
